@@ -32,6 +32,11 @@ namespace Calculator_Tests
         {
             Assert.ThrowsException<ArgumentException>(() => Calculator.Calculate(5, "nope", 5), "Invalid operation");
         }
+        [TestMethod]
+        public void Calculate_5divide0_ExceptionReturned()
+        {
+            Assert.ThrowsException<Exception>(() => Calculator.Calculate(5, "/", 0), "zero divided");
+        }
 
 
     }
