@@ -3,7 +3,7 @@ language: csharp
 dotnet: 3.1
 
 script:
-  - dotnet build dNET.sln -c Release
+  - dotnet build dNET/dNET.sln -c Release
   - dotnet test -c Release --no-build dNET/Calculator_Tests/Calculator_Tests.csproj /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
 
 after_script:
