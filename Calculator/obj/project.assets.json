@@ -1,11 +1,163 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "DotNetTools/0.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net40/DotNetTools.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DotNetTools.dll": {}
+        }
+      },
+      "JetBrains.dotCover.CommandLineTools/2020.2.3": {
+        "type": "package"
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DotNetTools/0.0.2": {
+      "sha512": "jKNx/tlFFbGi1x284Ozu/RrN6SZh7aT93TJnHvy32qwGA2rpkO3P4b5D9AU0eTkRtdqbx5DLrBSi/xrCSOMpXA==",
+      "type": "package",
+      "path": "dotnettools/0.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnettools.0.0.2.nupkg.sha512",
+        "dotnettools.nuspec",
+        "lib/net40/DotNetTools.XML",
+        "lib/net40/DotNetTools.dll"
+      ]
+    },
+    "JetBrains.dotCover.CommandLineTools/2020.2.3": {
+      "sha512": "zNQsSYvBY5KdkF1RuO+z519nB3SK7UnaYvoICvRmKAgp7RhoJvcS4L8h1iUv05HgdCsSKZJYSBtUYRLNn1TZKw==",
+      "type": "package",
+      "path": "jetbrains.dotcover.commandlinetools/2020.2.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License/jetbrains_license.html",
+        "jetbrains.dotcover.commandlinetools.2020.2.3.nupkg.sha512",
+        "jetbrains.dotcover.commandlinetools.nuspec",
+        "tools/DeploymentPackagingIdentity.txt",
+        "tools/JetBrains.Annotations.dll",
+        "tools/JetBrains.Common.MemoryMappedStorage.dll",
+        "tools/JetBrains.Common.Remotable.Agent.dll",
+        "tools/JetBrains.Common.Remotable.CrossDomain.dll",
+        "tools/JetBrains.Common.Remotable.Proxy.dll",
+        "tools/JetBrains.Common.Remotable.Util.dll",
+        "tools/JetBrains.Common.Remotable.dll",
+        "tools/JetBrains.Common.SignatureDefinitions.dll",
+        "tools/JetBrains.Common.UnitTesting.DataCollector.dll",
+        "tools/JetBrains.Common.UnitTesting.InProcDataCollector.dll",
+        "tools/JetBrains.Common.Util.Metadata.dll",
+        "tools/JetBrains.Common.Util.dll",
+        "tools/JetBrains.Etw.dll",
+        "tools/JetBrains.Lifetimes.dll",
+        "tools/JetBrains.Platform.ComponentModel.dll",
+        "tools/JetBrains.Platform.Core.dll",
+        "tools/JetBrains.Platform.Interop.dll",
+        "tools/JetBrains.Platform.Metadata.dll",
+        "tools/JetBrains.Platform.Shell.dll",
+        "tools/JetBrains.Platform.Util.dll",
+        "tools/JetBrains.Profiler.Api.dll",
+        "tools/JetBrains.Profiler.Snapshot.Interface.dll",
+        "tools/JetBrains.Profiler.Snapshot.dll",
+        "tools/JetBrains.Profiler.Util.dll",
+        "tools/JetBrains.Profiler.Windows.Impl.dll",
+        "tools/JetBrains.Profiler.Windows.Impl.dll.config",
+        "tools/JetBrains.Profiler.Windows.RemoteAgent.dll",
+        "tools/JetBrains.Profiler.Windows.RemoteAgent.dll.config",
+        "tools/JetBrains.Profiler.Windows.RemoteApi.dll",
+        "tools/JetBrains.Profiler.Windows.SysTools.dll",
+        "tools/JetBrains.Profiler.Windows.dll",
+        "tools/JetBrains.Profiler.dll",
+        "tools/JetBrains.ProfilingInstance.dll",
+        "tools/JetBrains.RdFramework.dll",
+        "tools/JetBrains.ReSharper.TaskRunnerFramework.dll",
+        "tools/JetBrains.dotCover.ClientCore.dll",
+        "tools/JetBrains.dotCover.DataAccess.dll",
+        "tools/JetBrains.dotCover.Shared.dll",
+        "tools/JetBrains.dotCover.Workspace.dll",
+        "tools/Microsoft.TestPlatform.CommunicationUtilities.dll",
+        "tools/Microsoft.TestPlatform.CoreUtilities.dll",
+        "tools/Microsoft.TestPlatform.PlatformAbstractions.dll",
+        "tools/Microsoft.TestPlatform.Utilities.dll",
+        "tools/Microsoft.TestPlatform.VsTestConsole.TranslationLayer.dll",
+        "tools/Microsoft.VisualStudio.TestPlatform.Common.dll",
+        "tools/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll",
+        "tools/Newtonsoft.Json.dll",
+        "tools/NuGet.Frameworks.dll",
+        "tools/System.Buffers.dll",
+        "tools/System.CodeDom.dll",
+        "tools/System.Collections.Immutable.dll",
+        "tools/System.Configuration.ConfigurationManager.dll",
+        "tools/System.Drawing.Common.dll",
+        "tools/System.IO.FileSystem.AccessControl.dll",
+        "tools/System.Memory.dll",
+        "tools/System.Numerics.Vectors.dll",
+        "tools/System.Reflection.Metadata.dll",
+        "tools/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "tools/System.Security.AccessControl.dll",
+        "tools/System.Security.Permissions.dll",
+        "tools/System.Security.Principal.Windows.dll",
+        "tools/System.Threading.Tasks.Extensions.dll",
+        "tools/System.ValueTuple.dll",
+        "tools/dotCover.exe",
+        "tools/linux-arm64.dbg.Etw.symref",
+        "tools/linux-arm64.dbg.Profiler.symref",
+        "tools/linux-arm64.rel.Etw.symref",
+        "tools/linux-arm64.rel.Profiler.symref",
+        "tools/linux-x64.dbg.Etw.symref",
+        "tools/linux-x64.dbg.Profiler.symref",
+        "tools/linux-x64.rel.Etw.symref",
+        "tools/linux-x64.rel.Profiler.symref",
+        "tools/macos-x64.dbg.Etw.symref",
+        "tools/macos-x64.dbg.Profiler.symref",
+        "tools/macos-x64.rel.Etw.symref",
+        "tools/macos-x64.rel.Profiler.symref",
+        "tools/netstandard.dll",
+        "tools/teamcity-plugin.xml",
+        "tools/windows-x64.dbg.Etw.symref",
+        "tools/windows-x64.dbg.Profiler.symref",
+        "tools/windows-x64.rel.Etw.symref",
+        "tools/windows-x64.rel.Profiler.symref",
+        "tools/windows-x86.dbg.Etw.symref",
+        "tools/windows-x86.dbg.Profiler.symref",
+        "tools/windows-x86.rel.Etw.symref",
+        "tools/windows-x86.rel.Profiler.symref",
+        "tools/x64/JetBrains.Process.Elevator.dll",
+        "tools/x64/JetBrains.Profiler.Core.dll",
+        "tools/x64/JetBrains.Profiler.CoreApi.dll",
+        "tools/x64/JetBrains.Profiler.CoreTransparent.dll",
+        "tools/x64/JetBrains.Profiler.PdbServer.exe",
+        "tools/x64/JetBrains.Profiler.WinRTFakeDebugger.exe",
+        "tools/x64/JetBrains.Profiler.WinRTHelper.exe",
+        "tools/x64/mono-profiler-jb.dll",
+        "tools/x64/symsrv.dll",
+        "tools/x64/symsrv.yes",
+        "tools/x86/JetBrains.Process.Elevator.dll",
+        "tools/x86/JetBrains.Profiler.Core.dll",
+        "tools/x86/JetBrains.Profiler.CoreApi.dll",
+        "tools/x86/JetBrains.Profiler.CoreTransparent.dll",
+        "tools/x86/JetBrains.Profiler.EtwManifest.dll",
+        "tools/x86/JetBrains.Profiler.PdbServer.exe",
+        "tools/x86/JetBrains.Profiler.WinRTFakeDebugger.exe",
+        "tools/x86/JetBrains.Profiler.WinRTHelper.exe",
+        "tools/x86/mono-profiler-jb.dll",
+        "tools/x86/symsrv.dll",
+        "tools/x86/symsrv.yes"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "DotNetTools >= 0.0.2",
+      "JetBrains.dotCover.CommandLineTools >= 2020.2.3"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Ildar\\.nuget\\packages\\": {},
@@ -45,6 +197,18 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "dependencies": {
+          "DotNetTools": {
+            "target": "Package",
+            "version": "[0.0.2, )"
+          },
+          "JetBrains.dotCover.CommandLineTools": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2020.2.3, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -63,5 +227,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotNetTools 0.0.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "DotNetTools",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

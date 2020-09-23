@@ -20,5 +20,6 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">C:\Program Files\dotnet\sdk\NuGetFallbackFolder\newtonsoft.json\9.0.1</PkgNewtonsoft_Json>
+    <PkgJetBrains_dotCover_CommandLineTools Condition=" '$(PkgJetBrains_dotCover_CommandLineTools)' == '' ">C:\Users\Ildar\.nuget\packages\jetbrains.dotcover.commandlinetools\2020.2.3</PkgJetBrains_dotCover_CommandLineTools>
   </PropertyGroup>
 </Project>

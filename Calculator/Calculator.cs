@@ -5,7 +5,6 @@ namespace dNET
 {
     public static class Calculator
     {
-        [ExcludeFromCodeCoverage]
         public static int GetNubmer()
         {
             int num = int.Parse(Console.ReadLine());

@@ -5,8 +5,14 @@
 
         <IsPackable>false</IsPackable>
     </PropertyGroup>
-
+    
     <ItemGroup>
+        <PackageReference Include="DotnetCoreTools.Core" Version="1.4.5" />
+        <PackageReference Include="DotNetTools" Version="0.0.2" />
+        <PackageReference Include="JetBrains.dotCover.CommandLineTools" Version="2020.2.3">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
         <PackageReference Include="MSTest.TestAdapter" Version="2.1.0" />
         <PackageReference Include="MSTest.TestFramework" Version="2.1.0" />
@@ -16,5 +22,5 @@
     <ItemGroup>
       <ProjectReference Include="..\Calculator\Calculator.csproj" />
     </ItemGroup>
-
+    
 </Project>
