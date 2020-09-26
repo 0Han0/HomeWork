@@ -1,0 +1,41 @@
+name: .NET Core
+
+on:
+  push:
+    branches: 
+    - master
+    - h_br
+  pull_request:
+    branches: 
+    - master
+    - h_br
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.1.301
+    - name: Install dependencies
+      run: dotnet restore
+    - name: Build
+      run: dotnet build --configuration Release --no-restore
+    - name: Test
+      run: dotnet test --no-restore --verbosity normal
+    - name: Generate coverage report
+      run: |
+        pip install unittest
+        pip install unittest-cov
+        unittest --cov=./ --cov-report=xml
+    - name: Upload coverage to Codecov  
+      uses: codecov/codecov-action@v1.0.3
+      with:
+        token: ${{secrets.CODECOV_TOKEN}}
+        file: ./coverage.xml
+        flags: unittests
+        name: codecov-umbrella 
