@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hZsD5dyF7mRm4vQJYGfrKsYAwe2UOULhUnoNe46xR2zniqoLDsoK11yX6NT4qC0Pp0Hx14UJZ8HOxNk2FyldfQ==",
+  "dgSpecHash": "u9r5OVAXHy2mXRNuRWy8hLRO2FIzOWUL0f6yh2lOTjzUkoBAjm4HlaW7D4TerfGuzDuPOTpOVtdpwiJyGO0LAQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ildar\\RiderProjects\\dNET\\Calculator_Tests\\Calculator_Tests.csproj",
+  "projectFilePath": "C:\\Users\\Ildar\\Desktop\\Home_Repo_Work\\HomeWork\\Calculator_Tests\\Calculator_Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ildar\\.nuget\\packages\\autofac\\4.0.0-rc2-240\\autofac.4.0.0-rc2-240.nupkg.sha512",
     "C:\\Users\\Ildar\\.nuget\\packages\\automapper\\5.0.0-beta-1\\automapper.5.0.0-beta-1.nupkg.sha512",

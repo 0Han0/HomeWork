@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "51caJbdqfx46IYAHUK7OmuqyiF48kFDmGh0hN6srauY/GhSTzhhVQS6tdkbeSQCqTAx92lOKYLUrwqeNtakjTg==",
+  "dgSpecHash": "qlfPNv1blwa8qyt2d34IEPy3EL1QvakiZ3QQQL27R5qrrOcydTgrlAGJC5InWNy4viUAKGsSfQHmRbnLclLQew==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ildar\\RiderProjects\\dNET\\Calculator\\Calculator.csproj",
+  "projectFilePath": "C:\\Users\\Ildar\\Desktop\\Home_Repo_Work\\HomeWork\\Calculator\\Calculator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ildar\\.nuget\\packages\\dotnettools\\0.0.2\\dotnettools.0.0.2.nupkg.sha512",
     "C:\\Users\\Ildar\\.nuget\\packages\\jetbrains.dotcover.commandlinetools\\2020.2.3\\jetbrains.dotcover.commandlinetools.2020.2.3.nupkg.sha512"

@@ -7,10 +7,23 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "Calculator/1.0.0": {
+        "dependencies": {
+          "DotNetTools": "0.0.2",
+          "JetBrains.dotCover.CommandLineTools": "2020.2.3"
+        },
         "runtime": {
           "Calculator.dll": {}
         }
-      }
+      },
+      "DotNetTools/0.0.2": {
+        "runtime": {
+          "lib/net40/DotNetTools.dll": {
+            "assemblyVersion": "0.2.0.0",
+            "fileVersion": "0.2.0.0"
+          }
+        }
+      },
+      "JetBrains.dotCover.CommandLineTools/2020.2.3": {}
     }
   },
   "libraries": {
@@ -18,6 +31,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "DotNetTools/0.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jKNx/tlFFbGi1x284Ozu/RrN6SZh7aT93TJnHvy32qwGA2rpkO3P4b5D9AU0eTkRtdqbx5DLrBSi/xrCSOMpXA==",
+      "path": "dotnettools/0.0.2",
+      "hashPath": "dotnettools.0.0.2.nupkg.sha512"
+    },
+    "JetBrains.dotCover.CommandLineTools/2020.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zNQsSYvBY5KdkF1RuO+z519nB3SK7UnaYvoICvRmKAgp7RhoJvcS4L8h1iUv05HgdCsSKZJYSBtUYRLNn1TZKw==",
+      "path": "jetbrains.dotcover.commandlinetools/2020.2.3",
+      "hashPath": "jetbrains.dotcover.commandlinetools.2020.2.3.nupkg.sha512"
     }
   }
 }

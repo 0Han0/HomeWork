@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ildar\\RiderProjects\\dNET\\Calculator_Tests\\Calculator_Tests.csproj": {}
+    "C:\\Users\\Ildar\\Desktop\\Home_Repo_Work\\HomeWork\\Calculator_Tests\\Calculator_Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ildar\\RiderProjects\\dNET\\Calculator\\Calculator.csproj": {
+    "C:\\Users\\Ildar\\Desktop\\Home_Repo_Work\\HomeWork\\Calculator\\Calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ildar\\RiderProjects\\dNET\\Calculator\\Calculator.csproj",
+        "projectUniqueName": "C:\\Users\\Ildar\\Desktop\\Home_Repo_Work\\HomeWork\\Calculator\\Calculator.csproj",
         "projectName": "Calculator",
-        "projectPath": "C:\\Users\\Ildar\\RiderProjects\\dNET\\Calculator\\Calculator.csproj",
+        "projectPath": "C:\\Users\\Ildar\\Desktop\\Home_Repo_Work\\HomeWork\\Calculator\\Calculator.csproj",
         "packagesPath": "C:\\Users\\Ildar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ildar\\RiderProjects\\dNET\\Calculator\\obj\\",
+        "outputPath": "C:\\Users\\Ildar\\Desktop\\Home_Repo_Work\\HomeWork\\Calculator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\Ildar\\RiderProjects\\dNET\\Calculator_Tests\\Calculator_Tests.csproj": {
+    "C:\\Users\\Ildar\\Desktop\\Home_Repo_Work\\HomeWork\\Calculator_Tests\\Calculator_Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ildar\\RiderProjects\\dNET\\Calculator_Tests\\Calculator_Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Ildar\\Desktop\\Home_Repo_Work\\HomeWork\\Calculator_Tests\\Calculator_Tests.csproj",
         "projectName": "Calculator_Tests",
-        "projectPath": "C:\\Users\\Ildar\\RiderProjects\\dNET\\Calculator_Tests\\Calculator_Tests.csproj",
+        "projectPath": "C:\\Users\\Ildar\\Desktop\\Home_Repo_Work\\HomeWork\\Calculator_Tests\\Calculator_Tests.csproj",
         "packagesPath": "C:\\Users\\Ildar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ildar\\RiderProjects\\dNET\\Calculator_Tests\\obj\\",
+        "outputPath": "C:\\Users\\Ildar\\Desktop\\Home_Repo_Work\\HomeWork\\Calculator_Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -93,8 +93,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Ildar\\RiderProjects\\dNET\\Calculator\\Calculator.csproj": {
-                "projectPath": "C:\\Users\\Ildar\\RiderProjects\\dNET\\Calculator\\Calculator.csproj"
+              "C:\\Users\\Ildar\\Desktop\\Home_Repo_Work\\HomeWork\\Calculator\\Calculator.csproj": {
+                "projectPath": "C:\\Users\\Ildar\\Desktop\\Home_Repo_Work\\HomeWork\\Calculator\\Calculator.csproj"
               }
             }
           }

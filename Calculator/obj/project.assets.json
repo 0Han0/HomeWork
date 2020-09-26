@@ -166,11 +166,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ildar\\RiderProjects\\dNET\\Calculator\\Calculator.csproj",
+      "projectUniqueName": "C:\\Users\\Ildar\\Desktop\\Home_Repo_Work\\HomeWork\\Calculator\\Calculator.csproj",
       "projectName": "Calculator",
-      "projectPath": "C:\\Users\\Ildar\\RiderProjects\\dNET\\Calculator\\Calculator.csproj",
+      "projectPath": "C:\\Users\\Ildar\\Desktop\\Home_Repo_Work\\HomeWork\\Calculator\\Calculator.csproj",
       "packagesPath": "C:\\Users\\Ildar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ildar\\RiderProjects\\dNET\\Calculator\\obj\\",
+      "outputPath": "C:\\Users\\Ildar\\Desktop\\Home_Repo_Work\\HomeWork\\Calculator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
