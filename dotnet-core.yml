@@ -1,14 +1,16 @@
 name: .NET Core
 
+name: .NET Core
+
 on:
-  push:
-    branches: 
-    - master
-    - h_br
-  pull_request:
-    branches: 
-    - master
-    - h_br
+push:
+branches: '**'
+pull_request:
+branches: '**'
+
+defaults:
+run:
+working-directory: ./
 
 jobs:
   build:
