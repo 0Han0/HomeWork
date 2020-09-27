@@ -29,10 +29,3 @@ jobs:
       run: dotnet build --configuration Release --no-restore
     - name: Test
       run: dotnet test --no-restore --verbosity normal
-    - name: Upload coverage to Codecov  
-      uses: codecov/codecov-action@v1.0.3
-      with:
-        token: ${{bb5d6301-45af-4c7d-be91-8a7d195000b6}}
-        file: ./Coverages.xml
-        flags: unittests
-        name: codecov-umbrella
